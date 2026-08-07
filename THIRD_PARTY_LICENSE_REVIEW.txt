@@ -1,0 +1,21 @@
+SP-NFT public repository license review
+
+This file is a release gate. Do not publish the following Unity content until its license and redistribution rights are confirmed:
+
+1. Original local Unity project: Assets/Cowsins/
+   Likely third-party game assets. Check the original asset-store license and whether public redistribution is allowed.
+2. Original local Unity project: Assets/TextMesh Pro/
+   Unity package content. Prefer package-manager restoration rather than copying vendor files into the repository.
+3. Original local Unity project: Assets/Fonts/
+   Microsoft YaHei / TTC and generated font assets may not be redistributable. Do not publish them without permission.
+4. Audio, textures, models, prefabs, and other files under Assets that were not authored by the SP-NFT authors.
+
+The final candidate package omits these restricted local asset folders. It includes an author-created primitive-only rifle/arm prefab, silent firing, Liberation Sans under SIL OFL 1.1, and the minimal TextMesh Pro shaders covered by the included Unity Companion License. See THIRD_PARTY_NOTICES.md.
+
+Release checklist:
+
+[x] Confirm authorship or redistribution license for every included binary asset.
+[x] Remove personal paths, participant identifiers, and local logs.
+[ ] Add a repository license for original SP-NFT code.
+[x] Add third-party license notices where required.
+[x] Build the Unity player from a clean project copy after package restoration.

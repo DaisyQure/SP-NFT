@@ -1,0 +1,155 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>SP-NFT Session Report</title>
+<style>body{font-family:Segoe UI,Helvetica,Arial,sans-serif;margin:24px;color:#222;background:#fafafa;}h1{color:#3a3a8a;border-bottom:2px solid #ddd;padding-bottom:6px;}h2{color:#3a3a8a;margin-top:28px;}section{background:#fff;padding:14px 18px;margin:12px 0;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08);}img{max-width:100%;height:auto;border:1px solid #eee;}table{border-collapse:collapse;font-size:13px;}th,td{border:1px solid #ddd;padding:4px 8px;text-align:left;}th{background:#f0f0f5;}.meta table{min-width:380px;}.hint{color:#888;font-size:12px;}footer{margin-top:24px;color:#888;font-size:12px;text-align:center;}</style></head><body>
+<h1>SP-NFT Session Report</h1>
+<section class="meta"><h2>Session Information</h2><table>
+<tr><th>Training Mode</th><td>relax</td></tr>
+<tr><th>Subject ID</th><td>SMOKE_RELAX</td></tr>
+<tr><th>Name</th><td></td></tr>
+<tr><th>Sex</th><td></td></tr>
+<tr><th>Age</th><td>0</td></tr>
+<tr><th>Handedness</th><td></td></tr>
+<tr><th>Notes</th><td>dual-end smoke test</td></tr>
+<tr><th>Start Time</th><td>2026-08-05 16:41:43</td></tr>
+<tr><th>End Time</th><td>2026-08-05 16:42:48</td></tr>
+<tr><th>Duration (s)</th><td>64.7191</td></tr>
+<tr><th>Time-series Rows (_rec)</th><td>766</td></tr>
+<tr><th>Event Rows (_log)</th><td>73</td></tr>
+<tr><th>Performance Summary File</th><td>performance_summary.csv</td></tr>
+</table></section>
+<section><h2>Time-series Curves</h2>
+<img src="fig_timeseries.png" alt="timeseries">
+</section>
+<section><h2>Distributions</h2>
+<img src="fig_distribution.png" alt="distribution">
+</section>
+<section><h2>Platform Performance Validation</h2>
+<img src="fig_performance.png" alt="performance">
+<p class="hint">Metrics include phase and session_stop acknowledgment latency.</p></section>
+<section><h2>Statistical Summary</h2>
+<table><thead><tr><th>section</th><th>key</th><th>N</th><th>mean</th><th>std</th><th>min</th><th>median</th><th>max</th></tr></thead><tbody>
+<tr><td>rec</td><td>trial_idx_rec</td><td>766</td><td>2.5026</td><td>1.1188</td><td>1</td><td>3</td><td>4</td></tr>
+<tr><td>rec</td><td>relaxation_rec</td><td>766</td><td>0.4762</td><td>0.2661</td><td>0.0281</td><td>0.4983</td><td>0.9724</td></tr>
+<tr><td>rec</td><td>relaxation_pct_rec</td><td>766</td><td>0.4756</td><td>0.2842</td><td>0.0067</td><td>0.5000</td><td>1</td></tr>
+<tr><td>rec</td><td>relaxation_window_open_rec</td><td>766</td><td>0.2480</td><td>0.4322</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>rec</td><td>alpha_power_rec</td><td>766</td><td>1.3738</td><td>0.2178</td><td>0.9573</td><td>1.3599</td><td>1.9080</td></tr>
+<tr><td>rec</td><td>beta1_power_rec</td><td>766</td><td>0.3129</td><td>0.0854</td><td>0.1556</td><td>0.3085</td><td>0.4988</td></tr>
+<tr><td>rec</td><td>beta2_power_rec</td><td>766</td><td>0.3666</td><td>0.0999</td><td>0.1966</td><td>0.3588</td><td>0.5928</td></tr>
+<tr><td>log</td><td>action_window_close</td><td>6</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>action_window_open</td><td>6</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>enrolled</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>menu_select_relax</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_a_end</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_a_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack_latency_ms</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack_transport_ms</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_b_end</td><td>5</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_b_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>scene_loaded</td><td>2</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>scene_unloaded</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_start</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack_latency_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack_transport_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>tcp_connected</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>tcp_connected_transport_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>trial_end</td><td>5</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>trial_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>perf</td><td>phase_ack_latency_ms</td><td>8</td><td>33.0694</td><td>1.5623</td><td>31.8351</td><td>32.5566</td><td>36.6628</td></tr>
+<tr><td>perf</td><td>phase_ack_transport_ms</td><td>8</td><td>16.5396</td><td>1.2750</td><td>13.7973</td><td>16.9131</td><td>17.7493</td></tr>
+<tr><td>perf</td><td>session_stop_ack_latency_ms</td><td>1</td><td>174.0129</td><td>0</td><td>174.0129</td><td>174.0129</td><td>174.0129</td></tr>
+<tr><td>perf</td><td>session_stop_ack_transport_ms</td><td>1</td><td>157.8698</td><td>0</td><td>157.8698</td><td>157.8698</td><td>157.8698</td></tr>
+<tr><td>perf</td><td>tcp_connected_transport_ms</td><td>1</td><td>3154.2377</td><td>0</td><td>3154.2377</td><td>3154.2377</td><td>3154.2377</td></tr>
+</tbody></table>
+<p class="hint">Full CSV: <code>report/summary.csv</code></p></section>
+<section><h2>Platform Performance Summary</h2>
+<table><thead><tr><th>metric</th><th>N</th><th>mean</th><th>std</th><th>min</th><th>median</th><th>max</th></tr></thead><tbody>
+<tr><td>phase_ack_latency_ms</td><td>8</td><td>33.0694</td><td>1.5623</td><td>31.8351</td><td>32.5565</td><td>36.6628</td></tr>
+<tr><td>session_stop_ack_latency_ms</td><td>1</td><td>174.0129</td><td>0</td><td>174.0129</td><td>174.0129</td><td>174.0129</td></tr>
+<tr><td>phase_ack_transport_ms</td><td>8</td><td>16.5396</td><td>1.2750</td><td>13.7973</td><td>16.9131</td><td>17.7493</td></tr>
+<tr><td>session_stop_ack_transport_ms</td><td>1</td><td>157.8698</td><td>0</td><td>157.8698</td><td>157.8698</td><td>157.8698</td></tr>
+<tr><td>tcp_connected_transport_ms</td><td>1</td><td>3154.2377</td><td>0</td><td>3154.2377</td><td>3154.2377</td><td>3154.2377</td></tr>
+<tr><td>unity_sync_transport_ms</td><td>9</td><td>32.2429</td><td>47.1252</td><td>13.7973</td><td>17.1626</td><td>157.8698</td></tr>
+<tr><td>unity_marker_transport_ms</td><td>27</td><td>715.4323</td><td>1286.1122</td><td>9.7692</td><td>49.0167</td><td>3154.2377</td></tr>
+</tbody></table>
+<p class="hint">Full CSV: <code>performance_summary.csv</code></p></section>
+<section><h2>Event Log (first 100 rows)</h2>
+<table><thead><tr><th>t_session_sec</th><th>abs_ts</th><th>source</th><th>kind</th><th>key</th><th>value</th><th>info</th></tr></thead><tbody>
+<tr><td>0.0047</td><td>1785919303.3376</td><td>system</td><td>subject</td><td>enrolled</td><td>0</td><td>id=SMOKE_RELAX name= sex= age=0 handedness= note=dual-end smoke test</td></tr>
+<tr><td>4.1475</td><td>1785919307.4804</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>1</td><td>dur=5s | send_seq=0</td></tr>
+<tr><td>4.1639</td><td>1785919307.4968</td><td>matlab</td><td>trial</td><td>trial_start</td><td>1</td><td></td></tr>
+<tr><td>4.1818</td><td>1785919307.5148</td><td>unity</td><td>marker</td><td>tcp_connected</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.360564 | recv_ts=1785919307.514802 | seq=0 | transport_ms=3154.238 | info=127.0.0.1:5555</td></tr>
+<tr><td>4.1818</td><td>1785919307.5148</td><td>system</td><td>latency</td><td>tcp_connected_transport_ms</td><td>3154.2377</td><td>scene=_Bootstrap seq=0 endpoint=127.0.0.1:5555</td></tr>
+<tr><td>4.1822</td><td>1785919307.5152</td><td>unity</td><td>marker</td><td>menu_select_relax</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.450614 | recv_ts=1785919307.515150 | seq=1 | transport_ms=3064.536 | info=Game_Relax</td></tr>
+<tr><td>4.1826</td><td>1785919307.5156</td><td>unity</td><td>marker</td><td>scene_loaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.450614 | recv_ts=1785919307.515551 | seq=2 | transport_ms=3064.937 | info=MainMenu</td></tr>
+<tr><td>4.1830</td><td>1785919307.5159</td><td>unity</td><td>marker</td><td>scene_unloaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.453613 | recv_ts=1785919307.515949 | seq=3 | transport_ms=3062.336 | info=MainMenu</td></tr>
+<tr><td>4.1833</td><td>1785919307.5163</td><td>unity</td><td>marker</td><td>scene_loaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.461980 | recv_ts=1785919307.516291 | seq=4 | transport_ms=3054.311 | info=Game_Relax</td></tr>
+<tr><td>4.1837</td><td>1785919307.5167</td><td>unity</td><td>marker</td><td>session_start</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919304.462985 | recv_ts=1785919307.516698 | seq=5 | transport_ms=3053.713 | info=relax</td></tr>
+<tr><td>4.1841</td><td>1785919307.5171</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919307.503281 | recv_ts=1785919307.517078 | seq=6 | transport_ms=13.797 | info=A</td></tr>
+<tr><td>4.1841</td><td>1785919307.5171</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>13.7973</td><td>phase=A trial=1 ack_seq=6 unity_phase=A</td></tr>
+<tr><td>4.1841</td><td>1785919307.5171</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>36.6628</td><td>phase=A trial=1 send_seq=0 ack_seq=6 unity_phase=A</td></tr>
+<tr><td>9.2107</td><td>1785919312.5437</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>1</td><td></td></tr>
+<tr><td>9.2111</td><td>1785919312.5440</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>1</td><td>dur=10s | send_seq=65</td></tr>
+<tr><td>9.2431</td><td>1785919312.5760</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919312.560257 | recv_ts=1785919312.576031 | seq=7 | transport_ms=15.774 | info=B</td></tr>
+<tr><td>9.2431</td><td>1785919312.5760</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>15.7738</td><td>phase=B trial=1 ack_seq=7 unity_phase=B</td></tr>
+<tr><td>9.2431</td><td>1785919312.5760</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>31.9920</td><td>phase=B trial=1 send_seq=65 ack_seq=7 unity_phase=B</td></tr>
+<tr><td>18.6109</td><td>1785919321.9439</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919321.913542 | recv_ts=1785919321.943865 | seq=8 | transport_ms=30.323 | info=relax_relaxation_ready</td></tr>
+<tr><td>18.9269</td><td>1785919322.2598</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919322.206902 | recv_ts=1785919322.259836 | seq=9 | transport_ms=52.934 | info=relax_relaxation_pending</td></tr>
+<tr><td>19.2241</td><td>1785919322.5570</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>1</td><td></td></tr>
+<tr><td>19.2248</td><td>1785919322.5578</td><td>matlab</td><td>trial</td><td>trial_end</td><td>1</td><td></td></tr>
+<tr><td>19.2251</td><td>1785919322.5581</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>2</td><td>dur=5s | send_seq=193</td></tr>
+<tr><td>19.2406</td><td>1785919322.5736</td><td>matlab</td><td>trial</td><td>trial_start</td><td>2</td><td></td></tr>
+<tr><td>19.2583</td><td>1785919322.5913</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919322.573531 | recv_ts=1785919322.591280 | seq=10 | transport_ms=17.749 | info=A</td></tr>
+<tr><td>19.2583</td><td>1785919322.5913</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.7493</td><td>phase=A trial=2 ack_seq=10 unity_phase=A</td></tr>
+<tr><td>19.2583</td><td>1785919322.5913</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>33.2060</td><td>phase=A trial=2 send_seq=193 ack_seq=10 unity_phase=A</td></tr>
+<tr><td>20.8300</td><td>1785919324.1630</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919324.089819 | recv_ts=1785919324.162965 | seq=11 | transport_ms=73.146 | info=relax_relaxation_ready</td></tr>
+<tr><td>24.2656</td><td>1785919327.5986</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>2</td><td></td></tr>
+<tr><td>24.2663</td><td>1785919327.5992</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>2</td><td>dur=10s | send_seq=258</td></tr>
+<tr><td>24.2989</td><td>1785919327.6318</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919327.615414 | recv_ts=1785919327.631847 | seq=12 | transport_ms=16.433 | info=B</td></tr>
+<tr><td>24.2989</td><td>1785919327.6318</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>16.4325</td><td>phase=B trial=2 ack_seq=12 unity_phase=B</td></tr>
+<tr><td>24.2989</td><td>1785919327.6318</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>32.5990</td><td>phase=B trial=2 send_seq=258 ack_seq=12 unity_phase=B</td></tr>
+<tr><td>24.9291</td><td>1785919328.2620</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919328.212991 | recv_ts=1785919328.262008 | seq=13 | transport_ms=49.017 | info=relax_relaxation_pending</td></tr>
+<tr><td>34.2735</td><td>1785919337.6064</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>2</td><td></td></tr>
+<tr><td>34.2737</td><td>1785919337.6067</td><td>matlab</td><td>trial</td><td>trial_end</td><td>2</td><td></td></tr>
+<tr><td>34.2740</td><td>1785919337.6069</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>3</td><td>dur=5s | send_seq=386</td></tr>
+<tr><td>34.2907</td><td>1785919337.6237</td><td>matlab</td><td>trial</td><td>trial_start</td><td>3</td><td></td></tr>
+<tr><td>34.3075</td><td>1785919337.6405</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919337.622993 | recv_ts=1785919337.640462 | seq=14 | transport_ms=17.468 | info=A</td></tr>
+<tr><td>34.3075</td><td>1785919337.6405</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.4685</td><td>phase=A trial=3 ack_seq=14 unity_phase=A</td></tr>
+<tr><td>34.3075</td><td>1785919337.6405</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>33.5300</td><td>phase=A trial=3 send_seq=386 ack_seq=14 unity_phase=A</td></tr>
+<tr><td>38.3097</td><td>1785919341.6427</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919341.606294 | recv_ts=1785919341.642666 | seq=15 | transport_ms=36.372 | info=relax_relaxation_ready</td></tr>
+<tr><td>39.3120</td><td>1785919342.6449</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>3</td><td></td></tr>
+<tr><td>39.3129</td><td>1785919342.6459</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>3</td><td>dur=10s | send_seq=451</td></tr>
+<tr><td>39.3448</td><td>1785919342.6777</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919342.661058 | recv_ts=1785919342.677722 | seq=16 | transport_ms=16.664 | info=B</td></tr>
+<tr><td>39.3448</td><td>1785919342.6777</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>16.6636</td><td>phase=B trial=3 ack_seq=16 unity_phase=B</td></tr>
+<tr><td>39.3448</td><td>1785919342.6777</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>31.8351</td><td>phase=B trial=3 send_seq=451 ack_seq=16 unity_phase=B</td></tr>
+<tr><td>42.0204</td><td>1785919345.3533</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919345.295009 | recv_ts=1785919345.353330 | seq=17 | transport_ms=58.321 | info=relax_relaxation_pending</td></tr>
+<tr><td>49.3889</td><td>1785919352.7219</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>3</td><td></td></tr>
+<tr><td>49.3895</td><td>1785919352.7224</td><td>matlab</td><td>trial</td><td>trial_end</td><td>3</td><td></td></tr>
+<tr><td>49.3899</td><td>1785919352.7228</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>4</td><td>dur=5s | send_seq=580</td></tr>
+<tr><td>49.4050</td><td>1785919352.7380</td><td>matlab</td><td>trial</td><td>trial_start</td><td>4</td><td></td></tr>
+<tr><td>49.4224</td><td>1785919352.7553</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919352.738068 | recv_ts=1785919352.755337 | seq=18 | transport_ms=17.269 | info=A</td></tr>
+<tr><td>49.4224</td><td>1785919352.7553</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.2691</td><td>phase=A trial=4 ack_seq=18 unity_phase=A</td></tr>
+<tr><td>49.4224</td><td>1785919352.7553</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>32.5141</td><td>phase=A trial=4 send_seq=580 ack_seq=18 unity_phase=A</td></tr>
+<tr><td>54.4258</td><td>1785919357.7587</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>4</td><td></td></tr>
+<tr><td>54.4266</td><td>1785919357.7596</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>4</td><td>dur=10s | send_seq=645</td></tr>
+<tr><td>54.4589</td><td>1785919357.7918</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919357.774648 | recv_ts=1785919357.791811 | seq=19 | transport_ms=17.163 | info=B</td></tr>
+<tr><td>54.4589</td><td>1785919357.7918</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.1626</td><td>phase=B trial=4 ack_seq=19 unity_phase=B</td></tr>
+<tr><td>54.4589</td><td>1785919357.7918</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>32.2161</td><td>phase=B trial=4 send_seq=645 ack_seq=19 unity_phase=B</td></tr>
+<tr><td>55.3273</td><td>1785919358.6603</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919358.645940 | recv_ts=1785919358.660305 | seq=20 | transport_ms=14.365 | info=relax_relaxation_ready</td></tr>
+<tr><td>58.8548</td><td>1785919362.1878</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919362.135873 | recv_ts=1785919362.187799 | seq=21 | transport_ms=51.926 | info=relax_relaxation_pending</td></tr>
+<tr><td>59.6398</td><td>1785919362.9728</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919362.898017 | recv_ts=1785919362.972786 | seq=22 | transport_ms=74.769 | info=relax_relaxation_ready</td></tr>
+<tr><td>59.9555</td><td>1785919363.2884</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919363.241362 | recv_ts=1785919363.288411 | seq=23 | transport_ms=47.049 | info=relax_relaxation_pending</td></tr>
+<tr><td>60.3489</td><td>1785919363.6819</td><td>unity</td><td>marker</td><td>action_window_open</td><td>1</td><td>scene=Game_Relax | unity_ts=1785919363.607477 | recv_ts=1785919363.681903 | seq=24 | transport_ms=74.426 | info=relax_relaxation_ready</td></tr>
+<tr><td>62.1354</td><td>1785919365.4683</td><td>unity</td><td>marker</td><td>action_window_close</td><td>0</td><td>scene=Game_Relax | unity_ts=1785919365.458549 | recv_ts=1785919365.468318 | seq=25 | transport_ms=9.769 | info=relax_relaxation_pending</td></tr>
+<tr><td>64.4655</td><td>1785919367.7985</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>4</td><td></td></tr>
+<tr><td>64.4658</td><td>1785919367.7988</td><td>matlab</td><td>trial</td><td>trial_end</td><td>4</td><td></td></tr>
+<tr><td>64.7017</td><td>1785919368.0347</td><td>unity</td><td>sync</td><td>session_stop_ack</td><td>0</td><td>unity_ts=1785919367.876805 | recv_ts=1785919368.034675 | seq=26 | info=finalize</td></tr>
+<tr><td>64.7017</td><td>1785919368.0347</td><td>system</td><td>latency</td><td>session_stop_ack_transport_ms</td><td>157.8698</td><td>ack_seq=26 reason=finalize</td></tr>
+<tr><td>64.7017</td><td>1785919368.0347</td><td>system</td><td>latency</td><td>session_stop_ack_latency_ms</td><td>174.0129</td><td>send_seq=775 ack_seq=26 reason=finalize</td></tr>
+<tr><td>64.7088</td><td>1785919368.0417</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>4</td><td>session_finalize</td></tr>
+<tr><td>64.7093</td><td>1785919368.0422</td><td>matlab</td><td>trial</td><td>trial_end</td><td>4</td><td>session_finalize</td></tr>
+</tbody></table>
+<p class="hint">Full event log: <code>events_log.csv</code></p></section>
+<footer>Generated by generate_report.m on 2026-08-06 16:28:50</footer>
+</body></html>

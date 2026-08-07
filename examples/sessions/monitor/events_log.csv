@@ -1,0 +1,70 @@
+﻿t_session_sec,abs_ts,source,kind,key,value,info
+0.0043,1785919374.981385,system,subject,enrolled,0,id=SMOKE_MONITOR name= sex= age=0 handedness= note=dual-end smoke test
+3.6298,1785919378.606855,matlab,phase,phase_a_start,1,dur=5s | send_seq=0
+3.6478,1785919378.624806,matlab,trial,trial_start,1,
+3.6966,1785919378.673662,unity,marker,tcp_connected,0,scene=_Bootstrap | unity_ts=1785919375.474012 | recv_ts=1785919378.673662 | seq=0 | transport_ms=3199.651 | info=127.0.0.1:5555
+3.6966,1785919378.673662,system,latency,tcp_connected_transport_ms,3199.6505,scene=_Bootstrap seq=0 endpoint=127.0.0.1:5555
+3.6970,1785919378.674011,unity,marker,menu_select_monitor,0,scene=_Bootstrap | unity_ts=1785919375.566904 | recv_ts=1785919378.674011 | seq=1 | transport_ms=3107.107 | info=Game_Monitor
+3.6973,1785919378.674402,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919375.567904 | recv_ts=1785919378.674402 | seq=2 | transport_ms=3106.498 | info=MainMenu
+3.6978,1785919378.674807,unity,marker,scene_unloaded,0,scene=_Bootstrap | unity_ts=1785919375.570908 | recv_ts=1785919378.674807 | seq=3 | transport_ms=3103.899 | info=MainMenu
+3.6982,1785919378.675207,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919375.619905 | recv_ts=1785919378.675207 | seq=4 | transport_ms=3055.302 | info=Game_Monitor
+3.6985,1785919378.675557,unity,marker,monitor_ready,0,scene=_Bootstrap | unity_ts=1785919375.620904 | recv_ts=1785919378.675557 | seq=5 | transport_ms=3054.653 | info=_Bootstrap
+3.6988,1785919378.675850,unity,sync,phase_ack,0,scene=_Bootstrap | unity_ts=1785919378.631355 | recv_ts=1785919378.675850 | seq=6 | transport_ms=44.495 | info=A
+3.6988,1785919378.675850,system,latency,phase_ack_transport_ms,44.4949,phase=A trial=1 ack_seq=6 unity_phase=A
+3.6988,1785919378.675850,system,latency,phase_ack_latency_ms,68.9952,phase=A trial=1 send_seq=0 ack_seq=6 unity_phase=A
+8.7219,1785919383.698924,matlab,phase,phase_a_end,1,
+8.7223,1785919383.699350,matlab,phase,phase_b_start,1,dur=10s | send_seq=139
+8.7853,1785919383.762340,unity,sync,phase_ack,1,scene=Game_Monitor | unity_ts=1785919383.713523 | recv_ts=1785919383.762340 | seq=7 | transport_ms=48.817 | info=B
+8.7853,1785919383.762340,system,latency,phase_ack_transport_ms,48.8169,phase=B trial=1 ack_seq=7 unity_phase=B
+8.7853,1785919383.762340,system,latency,phase_ack_latency_ms,62.9900,phase=B trial=1 send_seq=139 ack_seq=7 unity_phase=B
+18.7230,1785919393.700096,matlab,phase,phase_b_end,1,
+18.7241,1785919393.701133,matlab,trial,trial_end,1,
+18.7246,1785919393.701675,matlab,phase,phase_a_start,2,dur=5s | send_seq=413
+18.7395,1785919393.716540,matlab,trial,trial_start,2,
+18.7882,1785919393.765217,unity,sync,phase_ack,0,scene=Game_Monitor | unity_ts=1785919393.716303 | recv_ts=1785919393.765217 | seq=8 | transport_ms=48.914 | info=A
+18.7882,1785919393.765217,system,latency,phase_ack_transport_ms,48.9144,phase=A trial=2 ack_seq=8 unity_phase=A
+18.7882,1785919393.765217,system,latency,phase_ack_latency_ms,63.5421,phase=A trial=2 send_seq=413 ack_seq=8 unity_phase=A
+23.8084,1785919398.785473,matlab,phase,phase_a_end,2,
+23.8089,1785919398.785935,matlab,phase,phase_b_start,2,dur=10s | send_seq=552
+23.8733,1785919398.850330,unity,sync,phase_ack,1,scene=Game_Monitor | unity_ts=1785919398.800905 | recv_ts=1785919398.850330 | seq=9 | transport_ms=49.425 | info=B
+23.8733,1785919398.850330,system,latency,phase_ack_transport_ms,49.4249,phase=B trial=2 ack_seq=9 unity_phase=B
+23.8733,1785919398.850330,system,latency,phase_ack_latency_ms,64.3950,phase=B trial=2 send_seq=552 ack_seq=9 unity_phase=B
+23.8736,1785919398.850662,unity,marker,action_window_open,1,scene=Game_Monitor | unity_ts=1785919398.800905 | recv_ts=1785919398.850662 | seq=10 | transport_ms=49.757 | info=monitor_attention_ready
+24.4229,1785919399.399918,unity,marker,action_window_close,0,scene=Game_Monitor | unity_ts=1785919399.368547 | recv_ts=1785919399.399918 | seq=11 | transport_ms=31.371 | info=monitor_attention_ready
+33.8389,1785919408.815921,matlab,phase,phase_b_end,2,
+33.8395,1785919408.816513,matlab,trial,trial_end,2,
+33.8399,1785919408.816950,matlab,phase,phase_a_start,3,dur=5s | send_seq=826
+33.8541,1785919408.831152,matlab,trial,trial_start,3,
+33.9031,1785919408.880149,unity,sync,phase_ack,0,scene=Game_Monitor | unity_ts=1785919408.831429 | recv_ts=1785919408.880149 | seq=12 | transport_ms=48.720 | info=A
+33.9031,1785919408.880149,system,latency,phase_ack_transport_ms,48.7199,phase=A trial=3 ack_seq=12 unity_phase=A
+33.9031,1785919408.880149,system,latency,phase_ack_latency_ms,63.1990,phase=A trial=3 send_seq=826 ack_seq=12 unity_phase=A
+38.9285,1785919413.905529,matlab,phase,phase_a_end,3,
+38.9291,1785919413.906172,matlab,phase,phase_b_start,3,dur=10s | send_seq=965
+38.9934,1785919413.970445,unity,sync,phase_ack,1,scene=Game_Monitor | unity_ts=1785919413.922895 | recv_ts=1785919413.970445 | seq=13 | transport_ms=47.550 | info=B
+38.9934,1785919413.970445,system,latency,phase_ack_transport_ms,47.5497,phase=B trial=3 ack_seq=13 unity_phase=B
+38.9934,1785919413.970445,system,latency,phase_ack_latency_ms,64.2731,phase=B trial=3 send_seq=965 ack_seq=13 unity_phase=B
+38.9937,1785919413.970803,unity,marker,action_window_open,1,scene=Game_Monitor | unity_ts=1785919413.922895 | recv_ts=1785919413.970803 | seq=14 | transport_ms=47.908 | info=monitor_attention_ready
+44.9432,1785919419.920207,unity,marker,action_window_close,0,scene=Game_Monitor | unity_ts=1785919419.888827 | recv_ts=1785919419.920207 | seq=15 | transport_ms=31.380 | info=monitor_attention_ready
+45.1620,1785919420.139025,unity,marker,action_window_open,1,scene=Game_Monitor | unity_ts=1785919420.108010 | recv_ts=1785919420.139025 | seq=16 | transport_ms=31.015 | info=monitor_attention_ready
+45.2705,1785919420.247571,unity,marker,action_window_close,0,scene=Game_Monitor | unity_ts=1785919420.215010 | recv_ts=1785919420.247571 | seq=17 | transport_ms=32.561 | info=monitor_attention_ready
+48.9670,1785919423.944065,matlab,phase,phase_b_end,3,
+48.9673,1785919423.944325,matlab,trial,trial_end,3,
+48.9675,1785919423.944540,matlab,phase,phase_a_start,4,dur=5s | send_seq=1239
+48.9835,1785919423.960547,matlab,trial,trial_start,4,
+49.0327,1785919424.009777,unity,sync,phase_ack,0,scene=Game_Monitor | unity_ts=1785919423.960626 | recv_ts=1785919424.009777 | seq=18 | transport_ms=49.151 | info=A
+49.0327,1785919424.009777,system,latency,phase_ack_transport_ms,49.1507,phase=A trial=4 ack_seq=18 unity_phase=A
+49.0327,1785919424.009777,system,latency,phase_ack_latency_ms,65.2370,phase=A trial=4 send_seq=1239 ack_seq=18 unity_phase=A
+54.0527,1785919429.029735,matlab,phase,phase_a_end,4,
+54.0530,1785919429.030098,matlab,phase,phase_b_start,4,dur=10s | send_seq=1378
+54.1176,1785919429.094634,unity,sync,phase_ack,1,scene=Game_Monitor | unity_ts=1785919429.045332 | recv_ts=1785919429.094634 | seq=19 | transport_ms=49.302 | info=B
+54.1176,1785919429.094634,system,latency,phase_ack_transport_ms,49.3021,phase=B trial=4 ack_seq=19 unity_phase=B
+54.1176,1785919429.094634,system,latency,phase_ack_latency_ms,64.5361,phase=B trial=4 send_seq=1378 ack_seq=19 unity_phase=B
+55.0010,1785919429.978078,unity,marker,action_window_open,1,scene=Game_Monitor | unity_ts=1785919429.944212 | recv_ts=1785919429.978078 | seq=20 | transport_ms=33.865 | info=monitor_attention_ready
+62.2646,1785919437.241659,unity,marker,action_window_close,0,scene=Game_Monitor | unity_ts=1785919437.208496 | recv_ts=1785919437.241659 | seq=21 | transport_ms=33.163 | info=monitor_attention_ready
+64.0898,1785919439.066887,matlab,phase,phase_b_end,4,
+64.0901,1785919439.067143,matlab,trial,trial_end,4,
+64.3266,1785919439.303609,unity,sync,session_stop_ack,0,unity_ts=1785919439.148543 | recv_ts=1785919439.303609 | seq=22 | info=finalize
+64.3266,1785919439.303609,system,latency,session_stop_ack_transport_ms,155.0655,ack_seq=22 reason=finalize
+64.3266,1785919439.303609,system,latency,session_stop_ack_latency_ms,172.6041,send_seq=1653 ack_seq=22 reason=finalize
+64.3314,1785919439.308406,matlab,phase,phase_b_end,4,session_finalize
+64.3317,1785919439.308773,matlab,trial,trial_end,4,session_finalize

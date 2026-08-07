@@ -1,0 +1,74 @@
+﻿t_session_sec,abs_ts,source,kind,key,value,info
+0.0047,1785919303.337618,system,subject,enrolled,0,id=SMOKE_RELAX name= sex= age=0 handedness= note=dual-end smoke test
+4.1475,1785919307.480415,matlab,phase,phase_a_start,1,dur=5s | send_seq=0
+4.1639,1785919307.496814,matlab,trial,trial_start,1,
+4.1818,1785919307.514802,unity,marker,tcp_connected,0,scene=_Bootstrap | unity_ts=1785919304.360564 | recv_ts=1785919307.514802 | seq=0 | transport_ms=3154.238 | info=127.0.0.1:5555
+4.1818,1785919307.514802,system,latency,tcp_connected_transport_ms,3154.2377,scene=_Bootstrap seq=0 endpoint=127.0.0.1:5555
+4.1822,1785919307.515150,unity,marker,menu_select_relax,0,scene=_Bootstrap | unity_ts=1785919304.450614 | recv_ts=1785919307.515150 | seq=1 | transport_ms=3064.536 | info=Game_Relax
+4.1826,1785919307.515551,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919304.450614 | recv_ts=1785919307.515551 | seq=2 | transport_ms=3064.937 | info=MainMenu
+4.1830,1785919307.515949,unity,marker,scene_unloaded,0,scene=_Bootstrap | unity_ts=1785919304.453613 | recv_ts=1785919307.515949 | seq=3 | transport_ms=3062.336 | info=MainMenu
+4.1833,1785919307.516291,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919304.461980 | recv_ts=1785919307.516291 | seq=4 | transport_ms=3054.311 | info=Game_Relax
+4.1837,1785919307.516698,unity,marker,session_start,0,scene=_Bootstrap | unity_ts=1785919304.462985 | recv_ts=1785919307.516698 | seq=5 | transport_ms=3053.713 | info=relax
+4.1841,1785919307.517078,unity,sync,phase_ack,0,scene=_Bootstrap | unity_ts=1785919307.503281 | recv_ts=1785919307.517078 | seq=6 | transport_ms=13.797 | info=A
+4.1841,1785919307.517078,system,latency,phase_ack_transport_ms,13.7973,phase=A trial=1 ack_seq=6 unity_phase=A
+4.1841,1785919307.517078,system,latency,phase_ack_latency_ms,36.6628,phase=A trial=1 send_seq=0 ack_seq=6 unity_phase=A
+9.2107,1785919312.543705,matlab,phase,phase_a_end,1,
+9.2111,1785919312.544039,matlab,phase,phase_b_start,1,dur=10s | send_seq=65
+9.2431,1785919312.576031,unity,sync,phase_ack,1,scene=Game_Relax | unity_ts=1785919312.560257 | recv_ts=1785919312.576031 | seq=7 | transport_ms=15.774 | info=B
+9.2431,1785919312.576031,system,latency,phase_ack_transport_ms,15.7738,phase=B trial=1 ack_seq=7 unity_phase=B
+9.2431,1785919312.576031,system,latency,phase_ack_latency_ms,31.9920,phase=B trial=1 send_seq=65 ack_seq=7 unity_phase=B
+18.6109,1785919321.943865,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919321.913542 | recv_ts=1785919321.943865 | seq=8 | transport_ms=30.323 | info=relax_relaxation_ready
+18.9269,1785919322.259836,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919322.206902 | recv_ts=1785919322.259836 | seq=9 | transport_ms=52.934 | info=relax_relaxation_pending
+19.2241,1785919322.557049,matlab,phase,phase_b_end,1,
+19.2248,1785919322.557766,matlab,trial,trial_end,1,
+19.2251,1785919322.558074,matlab,phase,phase_a_start,2,dur=5s | send_seq=193
+19.2406,1785919322.573559,matlab,trial,trial_start,2,
+19.2583,1785919322.591280,unity,sync,phase_ack,0,scene=Game_Relax | unity_ts=1785919322.573531 | recv_ts=1785919322.591280 | seq=10 | transport_ms=17.749 | info=A
+19.2583,1785919322.591280,system,latency,phase_ack_transport_ms,17.7493,phase=A trial=2 ack_seq=10 unity_phase=A
+19.2583,1785919322.591280,system,latency,phase_ack_latency_ms,33.2060,phase=A trial=2 send_seq=193 ack_seq=10 unity_phase=A
+20.8300,1785919324.162965,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919324.089819 | recv_ts=1785919324.162965 | seq=11 | transport_ms=73.146 | info=relax_relaxation_ready
+24.2656,1785919327.598556,matlab,phase,phase_a_end,2,
+24.2663,1785919327.599248,matlab,phase,phase_b_start,2,dur=10s | send_seq=258
+24.2989,1785919327.631847,unity,sync,phase_ack,1,scene=Game_Relax | unity_ts=1785919327.615414 | recv_ts=1785919327.631847 | seq=12 | transport_ms=16.433 | info=B
+24.2989,1785919327.631847,system,latency,phase_ack_transport_ms,16.4325,phase=B trial=2 ack_seq=12 unity_phase=B
+24.2989,1785919327.631847,system,latency,phase_ack_latency_ms,32.5990,phase=B trial=2 send_seq=258 ack_seq=12 unity_phase=B
+24.9291,1785919328.262008,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919328.212991 | recv_ts=1785919328.262008 | seq=13 | transport_ms=49.017 | info=relax_relaxation_pending
+34.2735,1785919337.606407,matlab,phase,phase_b_end,2,
+34.2737,1785919337.606680,matlab,trial,trial_end,2,
+34.2740,1785919337.606932,matlab,phase,phase_a_start,3,dur=5s | send_seq=386
+34.2907,1785919337.623696,matlab,trial,trial_start,3,
+34.3075,1785919337.640462,unity,sync,phase_ack,0,scene=Game_Relax | unity_ts=1785919337.622993 | recv_ts=1785919337.640462 | seq=14 | transport_ms=17.468 | info=A
+34.3075,1785919337.640462,system,latency,phase_ack_transport_ms,17.4685,phase=A trial=3 ack_seq=14 unity_phase=A
+34.3075,1785919337.640462,system,latency,phase_ack_latency_ms,33.5300,phase=A trial=3 send_seq=386 ack_seq=14 unity_phase=A
+38.3097,1785919341.642666,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919341.606294 | recv_ts=1785919341.642666 | seq=15 | transport_ms=36.372 | info=relax_relaxation_ready
+39.3120,1785919342.644927,matlab,phase,phase_a_end,3,
+39.3129,1785919342.645887,matlab,phase,phase_b_start,3,dur=10s | send_seq=451
+39.3448,1785919342.677722,unity,sync,phase_ack,1,scene=Game_Relax | unity_ts=1785919342.661058 | recv_ts=1785919342.677722 | seq=16 | transport_ms=16.664 | info=B
+39.3448,1785919342.677722,system,latency,phase_ack_transport_ms,16.6636,phase=B trial=3 ack_seq=16 unity_phase=B
+39.3448,1785919342.677722,system,latency,phase_ack_latency_ms,31.8351,phase=B trial=3 send_seq=451 ack_seq=16 unity_phase=B
+42.0204,1785919345.353330,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919345.295009 | recv_ts=1785919345.353330 | seq=17 | transport_ms=58.321 | info=relax_relaxation_pending
+49.3889,1785919352.721888,matlab,phase,phase_b_end,3,
+49.3895,1785919352.722438,matlab,trial,trial_end,3,
+49.3899,1785919352.722823,matlab,phase,phase_a_start,4,dur=5s | send_seq=580
+49.4050,1785919352.737989,matlab,trial,trial_start,4,
+49.4224,1785919352.755337,unity,sync,phase_ack,0,scene=Game_Relax | unity_ts=1785919352.738068 | recv_ts=1785919352.755337 | seq=18 | transport_ms=17.269 | info=A
+49.4224,1785919352.755337,system,latency,phase_ack_transport_ms,17.2691,phase=A trial=4 ack_seq=18 unity_phase=A
+49.4224,1785919352.755337,system,latency,phase_ack_latency_ms,32.5141,phase=A trial=4 send_seq=580 ack_seq=18 unity_phase=A
+54.4258,1785919357.758728,matlab,phase,phase_a_end,4,
+54.4266,1785919357.759595,matlab,phase,phase_b_start,4,dur=10s | send_seq=645
+54.4589,1785919357.791811,unity,sync,phase_ack,1,scene=Game_Relax | unity_ts=1785919357.774648 | recv_ts=1785919357.791811 | seq=19 | transport_ms=17.163 | info=B
+54.4589,1785919357.791811,system,latency,phase_ack_transport_ms,17.1626,phase=B trial=4 ack_seq=19 unity_phase=B
+54.4589,1785919357.791811,system,latency,phase_ack_latency_ms,32.2161,phase=B trial=4 send_seq=645 ack_seq=19 unity_phase=B
+55.3273,1785919358.660305,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919358.645940 | recv_ts=1785919358.660305 | seq=20 | transport_ms=14.365 | info=relax_relaxation_ready
+58.8548,1785919362.187799,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919362.135873 | recv_ts=1785919362.187799 | seq=21 | transport_ms=51.926 | info=relax_relaxation_pending
+59.6398,1785919362.972786,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919362.898017 | recv_ts=1785919362.972786 | seq=22 | transport_ms=74.769 | info=relax_relaxation_ready
+59.9555,1785919363.288411,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919363.241362 | recv_ts=1785919363.288411 | seq=23 | transport_ms=47.049 | info=relax_relaxation_pending
+60.3489,1785919363.681903,unity,marker,action_window_open,1,scene=Game_Relax | unity_ts=1785919363.607477 | recv_ts=1785919363.681903 | seq=24 | transport_ms=74.426 | info=relax_relaxation_ready
+62.1354,1785919365.468318,unity,marker,action_window_close,0,scene=Game_Relax | unity_ts=1785919365.458549 | recv_ts=1785919365.468318 | seq=25 | transport_ms=9.769 | info=relax_relaxation_pending
+64.4655,1785919367.798465,matlab,phase,phase_b_end,4,
+64.4658,1785919367.798792,matlab,trial,trial_end,4,
+64.7017,1785919368.034675,unity,sync,session_stop_ack,0,unity_ts=1785919367.876805 | recv_ts=1785919368.034675 | seq=26 | info=finalize
+64.7017,1785919368.034675,system,latency,session_stop_ack_transport_ms,157.8698,ack_seq=26 reason=finalize
+64.7017,1785919368.034675,system,latency,session_stop_ack_latency_ms,174.0129,send_seq=775 ack_seq=26 reason=finalize
+64.7088,1785919368.041715,matlab,phase,phase_b_end,4,session_finalize
+64.7093,1785919368.042212,matlab,trial,trial_end,4,session_finalize

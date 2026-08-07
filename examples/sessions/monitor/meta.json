@@ -1,0 +1,38 @@
+{
+  "scheme": "monitor",
+  "subject": {
+    "id": "SMOKE_MONITOR",
+    "name": "",
+    "sex": "",
+    "age": 0,
+    "handedness": "",
+    "note": "dual-end smoke test"
+  },
+  "start_ts": "2026-08-05 16:42:54",
+  "start_abs_ts": 1.7859193749770548E+9,
+  "end_ts": "2026-08-05 16:43:59",
+  "end_abs_ts": 1.785919439320154E+9,
+  "duration_sec": 64.343099117279053,
+  "ts_columns": [
+    "t_session_sec",
+    "abs_ts",
+    "phase_rec",
+    "trial_idx_rec",
+    "attention_rec",
+    "attention_pct_rec",
+    "attention_window_open_rec",
+    "relaxation_rec",
+    "relaxation_pct_rec",
+    "relaxation_window_open_rec",
+    "simulation_intensity_rec",
+    "simulation_intensity_pct_rec",
+    "simulation_intensity_window_open_rec",
+    "theta_power_rec",
+    "alpha_power_rec",
+    "smr_power_rec",
+    "beta1_power_rec"
+  ],
+  "ts_row_count": 548,
+  "ev_row_count": 69,
+  "recording_convention": "_rec=time series, _log=event; see docs/RECORDING_CONVENTION.md"
+}

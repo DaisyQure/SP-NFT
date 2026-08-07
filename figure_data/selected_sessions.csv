@@ -1,0 +1,5 @@
+﻿mode,session_dir
+simulation,examples/sessions/simulation
+attention,examples/sessions/attention
+relax,examples/sessions/relax
+monitor,examples/sessions/monitor

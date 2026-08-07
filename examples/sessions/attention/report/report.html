@@ -1,0 +1,182 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>SP-NFT Session Report</title>
+<style>body{font-family:Segoe UI,Helvetica,Arial,sans-serif;margin:24px;color:#222;background:#fafafa;}h1{color:#3a3a8a;border-bottom:2px solid #ddd;padding-bottom:6px;}h2{color:#3a3a8a;margin-top:28px;}section{background:#fff;padding:14px 18px;margin:12px 0;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08);}img{max-width:100%;height:auto;border:1px solid #eee;}table{border-collapse:collapse;font-size:13px;}th,td{border:1px solid #ddd;padding:4px 8px;text-align:left;}th{background:#f0f0f5;}.meta table{min-width:380px;}.hint{color:#888;font-size:12px;}footer{margin-top:24px;color:#888;font-size:12px;text-align:center;}</style></head><body>
+<h1>SP-NFT Session Report</h1>
+<section class="meta"><h2>Session Information</h2><table>
+<tr><th>Training Mode</th><td>attention</td></tr>
+<tr><th>Subject ID</th><td>SMOKE_ATTENTION</td></tr>
+<tr><th>Name</th><td></td></tr>
+<tr><th>Sex</th><td></td></tr>
+<tr><th>Age</th><td>0</td></tr>
+<tr><th>Handedness</th><td></td></tr>
+<tr><th>Notes</th><td>dual-end smoke test</td></tr>
+<tr><th>Start Time</th><td>2026-08-05 16:36:52</td></tr>
+<tr><th>End Time</th><td>2026-08-05 16:37:57</td></tr>
+<tr><th>Duration (s)</th><td>64.1723</td></tr>
+<tr><th>Time-series Rows (_rec)</th><td>764</td></tr>
+<tr><th>Event Rows (_log)</th><td>134</td></tr>
+<tr><th>Performance Summary File</th><td>performance_summary.csv</td></tr>
+</table></section>
+<section><h2>Time-series Curves</h2>
+<img src="fig_timeseries.png" alt="timeseries">
+</section>
+<section><h2>Distributions</h2>
+<img src="fig_distribution.png" alt="distribution">
+</section>
+<section><h2>Platform Performance Validation</h2>
+<img src="fig_performance.png" alt="performance">
+<p class="hint">Metrics include phase and session_stop acknowledgment latency.</p></section>
+<section><h2>Statistical Summary</h2>
+<table><thead><tr><th>section</th><th>key</th><th>N</th><th>mean</th><th>std</th><th>min</th><th>median</th><th>max</th></tr></thead><tbody>
+<tr><td>rec</td><td>trial_idx_rec</td><td>764</td><td>2.5079</td><td>1.1164</td><td>1</td><td>3</td><td>4</td></tr>
+<tr><td>rec</td><td>attention_rec</td><td>764</td><td>0.4803</td><td>0.2813</td><td>0.0221</td><td>0.4950</td><td>0.9662</td></tr>
+<tr><td>rec</td><td>attention_pct_rec</td><td>764</td><td>0.4794</td><td>0.2906</td><td>0.0033</td><td>0.5000</td><td>1</td></tr>
+<tr><td>rec</td><td>attention_window_open_rec</td><td>764</td><td>0.2827</td><td>0.4506</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>rec</td><td>theta_power_rec</td><td>764</td><td>0.2850</td><td>0.0837</td><td>0.1411</td><td>0.2775</td><td>0.4750</td></tr>
+<tr><td>rec</td><td>smr_power_rec</td><td>764</td><td>0.8174</td><td>0.2508</td><td>0.3771</td><td>0.7954</td><td>1.3502</td></tr>
+<tr><td>rec</td><td>beta1_power_rec</td><td>764</td><td>0.4375</td><td>0.1195</td><td>0.2179</td><td>0.4291</td><td>0.6881</td></tr>
+<tr><td>log</td><td>coin_collected</td><td>31</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>coin_spawn</td><td>42</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>enrolled</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>menu_select_attention</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_a_end</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_a_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack_latency_ms</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_ack_transport_ms</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_b_end</td><td>5</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>phase_b_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>scene_loaded</td><td>2</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>scene_unloaded</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_start</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack_latency_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>session_stop_ack_transport_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>tcp_connected</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>tcp_connected_transport_ms</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>trial_end</td><td>5</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>log</td><td>trial_start</td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>perf</td><td>phase_ack_latency_ms</td><td>8</td><td>54.1741</td><td>59.5743</td><td>27.7021</td><td>32.7820</td><td>201.2250</td></tr>
+<tr><td>perf</td><td>phase_ack_transport_ms</td><td>8</td><td>29.8686</td><td>31.9569</td><td>15.4760</td><td>17.3031</td><td>108.1610</td></tr>
+<tr><td>perf</td><td>session_stop_ack_latency_ms</td><td>1</td><td>169.1418</td><td>0</td><td>169.1418</td><td>169.1418</td><td>169.1418</td></tr>
+<tr><td>perf</td><td>session_stop_ack_transport_ms</td><td>1</td><td>160.4445</td><td>0</td><td>160.4445</td><td>160.4445</td><td>160.4445</td></tr>
+<tr><td>perf</td><td>tcp_connected_transport_ms</td><td>1</td><td>3320.0684</td><td>0</td><td>3320.0684</td><td>3320.0684</td><td>3320.0684</td></tr>
+</tbody></table>
+<p class="hint">Full CSV: <code>report/summary.csv</code></p></section>
+<section><h2>Platform Performance Summary</h2>
+<table><thead><tr><th>metric</th><th>N</th><th>mean</th><th>std</th><th>min</th><th>median</th><th>max</th></tr></thead><tbody>
+<tr><td>phase_ack_latency_ms</td><td>8</td><td>54.1741</td><td>59.5743</td><td>27.7021</td><td>32.7820</td><td>201.2250</td></tr>
+<tr><td>session_stop_ack_latency_ms</td><td>1</td><td>169.1418</td><td>0</td><td>169.1418</td><td>169.1418</td><td>169.1418</td></tr>
+<tr><td>phase_ack_transport_ms</td><td>8</td><td>29.8686</td><td>31.9568</td><td>15.4760</td><td>17.3031</td><td>108.1610</td></tr>
+<tr><td>session_stop_ack_transport_ms</td><td>1</td><td>160.4445</td><td>0</td><td>160.4445</td><td>160.4445</td><td>160.4445</td></tr>
+<tr><td>tcp_connected_transport_ms</td><td>1</td><td>3320.0684</td><td>0</td><td>3320.0684</td><td>3320.0684</td><td>3320.0684</td></tr>
+<tr><td>unity_sync_transport_ms</td><td>9</td><td>44.3770</td><td>52.8019</td><td>15.4760</td><td>17.3383</td><td>160.4445</td></tr>
+<tr><td>unity_marker_transport_ms</td><td>88</td><td>256.2358</td><td>812.8234</td><td>1.7288</td><td>38.7043</td><td>3320.0684</td></tr>
+</tbody></table>
+<p class="hint">Full CSV: <code>performance_summary.csv</code></p></section>
+<section><h2>Event Log (first 100 rows)</h2>
+<table><thead><tr><th>t_session_sec</th><th>abs_ts</th><th>source</th><th>kind</th><th>key</th><th>value</th><th>info</th></tr></thead><tbody>
+<tr><td>0.0308</td><td>1785919012.9844</td><td>system</td><td>subject</td><td>enrolled</td><td>0</td><td>id=SMOKE_ATTENTION name= sex= age=0 handedness= note=dual-end smoke test</td></tr>
+<tr><td>3.5261</td><td>1785919016.4797</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>1</td><td>dur=5s | send_seq=0</td></tr>
+<tr><td>3.6229</td><td>1785919016.5765</td><td>matlab</td><td>trial</td><td>trial_start</td><td>1</td><td></td></tr>
+<tr><td>3.7145</td><td>1785919016.6682</td><td>unity</td><td>marker</td><td>tcp_connected</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.348097 | recv_ts=1785919016.668165 | seq=0 | transport_ms=3320.068 | info=127.0.0.1:5555</td></tr>
+<tr><td>3.7145</td><td>1785919016.6682</td><td>system</td><td>latency</td><td>tcp_connected_transport_ms</td><td>3320.0684</td><td>scene=_Bootstrap seq=0 endpoint=127.0.0.1:5555</td></tr>
+<tr><td>3.7187</td><td>1785919016.6723</td><td>unity</td><td>marker</td><td>menu_select_attention</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.440278 | recv_ts=1785919016.672319 | seq=1 | transport_ms=3232.041 | info=Game_Attention</td></tr>
+<tr><td>3.7201</td><td>1785919016.6737</td><td>unity</td><td>marker</td><td>scene_loaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.441278 | recv_ts=1785919016.673679 | seq=2 | transport_ms=3232.401 | info=MainMenu</td></tr>
+<tr><td>3.7214</td><td>1785919016.6750</td><td>unity</td><td>marker</td><td>scene_unloaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.443332 | recv_ts=1785919016.675006 | seq=3 | transport_ms=3231.674 | info=MainMenu</td></tr>
+<tr><td>3.7234</td><td>1785919016.6770</td><td>unity</td><td>marker</td><td>scene_loaded</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.460333 | recv_ts=1785919016.676978 | seq=4 | transport_ms=3216.645 | info=Game_Attention</td></tr>
+<tr><td>3.7270</td><td>1785919016.6806</td><td>unity</td><td>marker</td><td>session_start</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919013.460333 | recv_ts=1785919016.680603 | seq=5 | transport_ms=3220.270 | info=attention</td></tr>
+<tr><td>3.7273</td><td>1785919016.6810</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=_Bootstrap | unity_ts=1785919016.572796 | recv_ts=1785919016.680957 | seq=6 | transport_ms=108.161 | info=A</td></tr>
+<tr><td>3.7273</td><td>1785919016.6810</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>108.1610</td><td>phase=A trial=1 ack_seq=6 unity_phase=A</td></tr>
+<tr><td>3.7273</td><td>1785919016.6810</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>201.2250</td><td>phase=A trial=1 send_seq=0 ack_seq=6 unity_phase=A</td></tr>
+<tr><td>8.5357</td><td>1785919021.4894</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>1</td><td></td></tr>
+<tr><td>8.5370</td><td>1785919021.4907</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>1</td><td>dur=10s | send_seq=61</td></tr>
+<tr><td>8.5797</td><td>1785919021.5333</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Attention | unity_ts=1785919021.503850 | recv_ts=1785919021.533336 | seq=7 | transport_ms=29.486 | info=B</td></tr>
+<tr><td>8.5797</td><td>1785919021.5333</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>29.4857</td><td>phase=B trial=1 ack_seq=7 unity_phase=B</td></tr>
+<tr><td>8.5797</td><td>1785919021.5333</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>42.6760</td><td>phase=B trial=1 send_seq=61 ack_seq=7 unity_phase=B</td></tr>
+<tr><td>11.0946</td><td>1785919024.0482</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.9726</td><td>scene=Game_Attention | unity_ts=1785919024.024193 | recv_ts=1785919024.048225 | seq=8 | transport_ms=24.032 | info=attention</td></tr>
+<tr><td>15.1846</td><td>1785919028.1382</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.7419</td><td>scene=Game_Attention | unity_ts=1785919028.127811 | recv_ts=1785919028.138178 | seq=9 | transport_ms=10.366 | info=attention</td></tr>
+<tr><td>16.3749</td><td>1785919029.3286</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.0602</td><td>scene=Game_Attention | unity_ts=1785919029.272791 | recv_ts=1785919029.328557 | seq=10 | transport_ms=55.766 | info=attention</td></tr>
+<tr><td>17.0065</td><td>1785919029.9601</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.2197</td><td>scene=Game_Attention | unity_ts=1785919029.948434 | recv_ts=1785919029.960143 | seq=11 | transport_ms=11.709 | info=attention</td></tr>
+<tr><td>17.6142</td><td>1785919030.5678</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919030.548125 | recv_ts=1785919030.567829 | seq=12 | transport_ms=19.704 | info=attention</td></tr>
+<tr><td>17.6146</td><td>1785919030.5682</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.2545</td><td>scene=Game_Attention | unity_ts=1785919030.558125 | recv_ts=1785919030.568218 | seq=13 | transport_ms=10.093 | info=attention</td></tr>
+<tr><td>18.2223</td><td>1785919031.1759</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.9937</td><td>scene=Game_Attention | unity_ts=1785919031.165212 | recv_ts=1785919031.175940 | seq=14 | transport_ms=10.728 | info=attention</td></tr>
+<tr><td>18.2227</td><td>1785919031.1763</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919031.167212 | recv_ts=1785919031.176279 | seq=15 | transport_ms=9.067 | info=attention</td></tr>
+<tr><td>18.5978</td><td>1785919031.5514</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>1</td><td></td></tr>
+<tr><td>18.5983</td><td>1785919031.5519</td><td>matlab</td><td>trial</td><td>trial_end</td><td>1</td><td></td></tr>
+<tr><td>18.5992</td><td>1785919031.5528</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>2</td><td>dur=5s | send_seq=190</td></tr>
+<tr><td>18.6140</td><td>1785919031.5676</td><td>matlab</td><td>trial</td><td>trial_start</td><td>2</td><td></td></tr>
+<tr><td>18.6296</td><td>1785919031.5832</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Attention | unity_ts=1785919031.567671 | recv_ts=1785919031.583180 | seq=16 | transport_ms=15.509 | info=A</td></tr>
+<tr><td>18.6296</td><td>1785919031.5832</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>15.5089</td><td>phase=A trial=2 ack_seq=16 unity_phase=A</td></tr>
+<tr><td>18.6296</td><td>1785919031.5832</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>30.3869</td><td>phase=A trial=2 send_seq=190 ack_seq=16 unity_phase=A</td></tr>
+<tr><td>23.6496</td><td>1785919036.6032</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>2</td><td></td></tr>
+<tr><td>23.6503</td><td>1785919036.6039</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>2</td><td>dur=10s | send_seq=255</td></tr>
+<tr><td>23.6842</td><td>1785919036.6378</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Attention | unity_ts=1785919036.619209 | recv_ts=1785919036.637796 | seq=17 | transport_ms=18.587 | info=B</td></tr>
+<tr><td>23.6842</td><td>1785919036.6378</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>18.5871</td><td>phase=B trial=2 ack_seq=17 unity_phase=B</td></tr>
+<tr><td>23.6842</td><td>1785919036.6378</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>33.9019</td><td>phase=B trial=2 send_seq=255 ack_seq=17 unity_phase=B</td></tr>
+<tr><td>23.9019</td><td>1785919036.8555</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.7220</td><td>scene=Game_Attention | unity_ts=1785919036.836798 | recv_ts=1785919036.855493 | seq=18 | transport_ms=18.695 | info=attention</td></tr>
+<tr><td>23.9022</td><td>1785919036.8558</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919036.839797 | recv_ts=1785919036.855836 | seq=19 | transport_ms=16.038 | info=attention</td></tr>
+<tr><td>24.6087</td><td>1785919037.5623</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.0417</td><td>scene=Game_Attention | unity_ts=1785919037.495532 | recv_ts=1785919037.562339 | seq=20 | transport_ms=66.807 | info=attention</td></tr>
+<tr><td>24.6091</td><td>1785919037.5627</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919037.499535 | recv_ts=1785919037.562735 | seq=21 | transport_ms=63.200 | info=attention</td></tr>
+<tr><td>25.3954</td><td>1785919038.3490</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919038.339306 | recv_ts=1785919038.349030 | seq=22 | transport_ms=9.724 | info=attention</td></tr>
+<tr><td>25.3959</td><td>1785919038.3495</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.7959</td><td>scene=Game_Attention | unity_ts=1785919038.345306 | recv_ts=1785919038.349481 | seq=23 | transport_ms=4.175 | info=attention</td></tr>
+<tr><td>26.3378</td><td>1785919039.2914</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1874</td><td>scene=Game_Attention | unity_ts=1785919039.270685 | recv_ts=1785919039.291449 | seq=24 | transport_ms=20.764 | info=attention</td></tr>
+<tr><td>27.2616</td><td>1785919040.2152</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.2414</td><td>scene=Game_Attention | unity_ts=1785919040.205228 | recv_ts=1785919040.215223 | seq=25 | transport_ms=9.995 | info=attention</td></tr>
+<tr><td>28.2805</td><td>1785919041.2341</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.7287</td><td>scene=Game_Attention | unity_ts=1785919041.162373 | recv_ts=1785919041.234112 | seq=26 | transport_ms=71.739 | info=attention</td></tr>
+<tr><td>30.2415</td><td>1785919043.1951</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.9464</td><td>scene=Game_Attention | unity_ts=1785919043.146623 | recv_ts=1785919043.195130 | seq=27 | transport_ms=48.507 | info=attention</td></tr>
+<tr><td>33.1440</td><td>1785919046.0976</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.8556</td><td>scene=Game_Attention | unity_ts=1785919046.040438 | recv_ts=1785919046.097613 | seq=28 | transport_ms=57.175 | info=attention</td></tr>
+<tr><td>33.6778</td><td>1785919046.6314</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>2</td><td></td></tr>
+<tr><td>33.6784</td><td>1785919046.6320</td><td>matlab</td><td>trial</td><td>trial_end</td><td>2</td><td></td></tr>
+<tr><td>33.6818</td><td>1785919046.6354</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>3</td><td>dur=5s | send_seq=384</td></tr>
+<tr><td>33.6938</td><td>1785919046.6474</td><td>matlab</td><td>trial</td><td>trial_start</td><td>3</td><td></td></tr>
+<tr><td>33.7095</td><td>1785919046.6631</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Attention | unity_ts=1785919046.647604 | recv_ts=1785919046.663080 | seq=29 | transport_ms=15.476 | info=A</td></tr>
+<tr><td>33.7095</td><td>1785919046.6631</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>15.4760</td><td>phase=A trial=3 ack_seq=29 unity_phase=A</td></tr>
+<tr><td>33.7095</td><td>1785919046.6631</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>27.7021</td><td>phase=A trial=3 send_seq=384 ack_seq=29 unity_phase=A</td></tr>
+<tr><td>38.7223</td><td>1785919051.6759</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>3</td><td></td></tr>
+<tr><td>38.7231</td><td>1785919051.6767</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>3</td><td>dur=10s | send_seq=449</td></tr>
+<tr><td>38.7551</td><td>1785919051.7087</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Attention | unity_ts=1785919051.691552 | recv_ts=1785919051.708676 | seq=30 | transport_ms=17.124 | info=B</td></tr>
+<tr><td>38.7551</td><td>1785919051.7087</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.1237</td><td>phase=B trial=3 ack_seq=30 unity_phase=B</td></tr>
+<tr><td>38.7551</td><td>1785919051.7087</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>31.9371</td><td>phase=B trial=3 send_seq=449 ack_seq=30 unity_phase=B</td></tr>
+<tr><td>39.0691</td><td>1785919052.0227</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.9435</td><td>scene=Game_Attention | unity_ts=1785919051.962528 | recv_ts=1785919052.022705 | seq=31 | transport_ms=60.177 | info=attention</td></tr>
+<tr><td>39.0695</td><td>1785919052.0231</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919051.963530 | recv_ts=1785919052.023083 | seq=32 | transport_ms=59.553 | info=attention</td></tr>
+<tr><td>39.5250</td><td>1785919052.4786</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919052.463043 | recv_ts=1785919052.478601 | seq=33 | transport_ms=15.558 | info=attention</td></tr>
+<tr><td>39.5253</td><td>1785919052.4789</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1055</td><td>scene=Game_Attention | unity_ts=1785919052.466043 | recv_ts=1785919052.478931 | seq=34 | transport_ms=12.888 | info=attention</td></tr>
+<tr><td>40.0777</td><td>1785919053.0313</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919052.963155 | recv_ts=1785919053.031317 | seq=35 | transport_ms=68.162 | info=attention</td></tr>
+<tr><td>40.0781</td><td>1785919053.0317</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.0424</td><td>scene=Game_Attention | unity_ts=1785919052.965154 | recv_ts=1785919053.031680 | seq=36 | transport_ms=66.525 | info=attention</td></tr>
+<tr><td>40.5476</td><td>1785919053.5012</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919053.483379 | recv_ts=1785919053.501198 | seq=37 | transport_ms=17.819 | info=attention</td></tr>
+<tr><td>40.5479</td><td>1785919053.5015</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.0148</td><td>scene=Game_Attention | unity_ts=1785919053.486379 | recv_ts=1785919053.501538 | seq=38 | transport_ms=15.159 | info=attention</td></tr>
+<tr><td>41.1744</td><td>1785919054.1281</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1018</td><td>scene=Game_Attention | unity_ts=1785919054.078262 | recv_ts=1785919054.128051 | seq=39 | transport_ms=49.789 | info=attention</td></tr>
+<tr><td>41.1748</td><td>1785919054.1284</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919054.083262 | recv_ts=1785919054.128406 | seq=40 | transport_ms=45.144 | info=attention</td></tr>
+<tr><td>41.7881</td><td>1785919054.7417</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919054.723117 | recv_ts=1785919054.741699 | seq=41 | transport_ms=18.582 | info=attention</td></tr>
+<tr><td>41.7884</td><td>1785919054.7420</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.8090</td><td>scene=Game_Attention | unity_ts=1785919054.732117 | recv_ts=1785919054.742039 | seq=42 | transport_ms=9.922 | info=attention</td></tr>
+<tr><td>42.4956</td><td>1785919055.4492</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919055.403511 | recv_ts=1785919055.449210 | seq=43 | transport_ms=45.699 | info=attention</td></tr>
+<tr><td>42.4959</td><td>1785919055.4496</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.0540</td><td>scene=Game_Attention | unity_ts=1785919055.404511 | recv_ts=1785919055.449554 | seq=44 | transport_ms=45.043 | info=attention</td></tr>
+<tr><td>43.2033</td><td>1785919056.1569</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919056.083248 | recv_ts=1785919056.156941 | seq=45 | transport_ms=73.693 | info=attention</td></tr>
+<tr><td>43.2037</td><td>1785919056.1573</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1863</td><td>scene=Game_Attention | unity_ts=1785919056.093247 | recv_ts=1785919056.157284 | seq=46 | transport_ms=64.037 | info=attention</td></tr>
+<tr><td>43.8133</td><td>1785919056.7669</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919056.743090 | recv_ts=1785919056.766910 | seq=47 | transport_ms=23.820 | info=attention</td></tr>
+<tr><td>43.8136</td><td>1785919056.7672</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.9976</td><td>scene=Game_Attention | unity_ts=1785919056.752090 | recv_ts=1785919056.767243 | seq=48 | transport_ms=15.153 | info=attention</td></tr>
+<tr><td>44.5200</td><td>1785919057.4737</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1687</td><td>scene=Game_Attention | unity_ts=1785919057.418983 | recv_ts=1785919057.473669 | seq=49 | transport_ms=54.687 | info=attention</td></tr>
+<tr><td>44.5204</td><td>1785919057.4740</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919057.423982 | recv_ts=1785919057.474019 | seq=50 | transport_ms=50.037 | info=attention</td></tr>
+<tr><td>45.3081</td><td>1785919058.2617</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.8369</td><td>scene=Game_Attention | unity_ts=1785919058.215975 | recv_ts=1785919058.261675 | seq=51 | transport_ms=45.700 | info=attention</td></tr>
+<tr><td>45.3084</td><td>1785919058.2620</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919058.223975 | recv_ts=1785919058.262010 | seq=52 | transport_ms=38.035 | info=attention</td></tr>
+<tr><td>47.4287</td><td>1785919060.3823</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1494</td><td>scene=Game_Attention | unity_ts=1785919060.350682 | recv_ts=1785919060.382337 | seq=53 | transport_ms=31.655 | info=attention</td></tr>
+<tr><td>48.7495</td><td>1785919061.7031</td><td>matlab</td><td>phase</td><td>phase_b_end</td><td>3</td><td></td></tr>
+<tr><td>48.7499</td><td>1785919061.7035</td><td>matlab</td><td>trial</td><td>trial_end</td><td>3</td><td></td></tr>
+<tr><td>48.7505</td><td>1785919061.7041</td><td>matlab</td><td>phase</td><td>phase_a_start</td><td>4</td><td>dur=5s | send_seq=578</td></tr>
+<tr><td>48.7660</td><td>1785919061.7196</td><td>matlab</td><td>trial</td><td>trial_start</td><td>4</td><td></td></tr>
+<tr><td>48.7836</td><td>1785919061.7372</td><td>unity</td><td>sync</td><td>phase_ack</td><td>0</td><td>scene=Game_Attention | unity_ts=1785919061.719860 | recv_ts=1785919061.737198 | seq=54 | transport_ms=17.338 | info=A</td></tr>
+<tr><td>48.7836</td><td>1785919061.7372</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.3383</td><td>phase=A trial=4 ack_seq=54 unity_phase=A</td></tr>
+<tr><td>48.7836</td><td>1785919061.7372</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>33.1190</td><td>phase=A trial=4 send_seq=578 ack_seq=54 unity_phase=A</td></tr>
+<tr><td>53.7996</td><td>1785919066.7533</td><td>matlab</td><td>phase</td><td>phase_a_end</td><td>4</td><td></td></tr>
+<tr><td>53.8001</td><td>1785919066.7538</td><td>matlab</td><td>phase</td><td>phase_b_start</td><td>4</td><td>dur=10s | send_seq=643</td></tr>
+<tr><td>53.8326</td><td>1785919066.7862</td><td>unity</td><td>sync</td><td>phase_ack</td><td>1</td><td>scene=Game_Attention | unity_ts=1785919066.768939 | recv_ts=1785919066.786207 | seq=55 | transport_ms=17.268 | info=B</td></tr>
+<tr><td>53.8326</td><td>1785919066.7862</td><td>system</td><td>latency</td><td>phase_ack_transport_ms</td><td>17.2679</td><td>phase=B trial=4 ack_seq=55 unity_phase=B</td></tr>
+<tr><td>53.8326</td><td>1785919066.7862</td><td>system</td><td>latency</td><td>phase_ack_latency_ms</td><td>32.4450</td><td>phase=B trial=4 send_seq=643 ack_seq=55 unity_phase=B</td></tr>
+<tr><td>54.3681</td><td>1785919067.3217</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-1.7739</td><td>scene=Game_Attention | unity_ts=1785919067.308038 | recv_ts=1785919067.321732 | seq=56 | transport_ms=13.695 | info=attention</td></tr>
+<tr><td>54.5242</td><td>1785919067.4779</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919067.412646 | recv_ts=1785919067.477858 | seq=57 | transport_ms=65.212 | info=attention</td></tr>
+<tr><td>54.9907</td><td>1785919067.9443</td><td>unity</td><td>marker</td><td>coin_spawn</td><td>-2.1052</td><td>scene=Game_Attention | unity_ts=1785919067.906591 | recv_ts=1785919067.944335 | seq=58 | transport_ms=37.744 | info=attention</td></tr>
+<tr><td>54.9911</td><td>1785919067.9447</td><td>unity</td><td>marker</td><td>coin_collected</td><td>10</td><td>scene=Game_Attention | unity_ts=1785919067.912591 | recv_ts=1785919067.944684 | seq=59 | transport_ms=32.093 | info=attention</td></tr>
+</tbody></table>
+<p class="hint">Full event log: <code>events_log.csv</code></p></section>
+<footer>Generated by generate_report.m on 2026-08-06 16:26:00</footer>
+</body></html>

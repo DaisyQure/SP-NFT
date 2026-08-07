@@ -1,0 +1,18 @@
+{
+  "total_sessions": 48,
+  "complete_sessions": 47,
+  "incomplete_sessions": 1,
+  "valid_sessions": 44,
+  "invalid_sessions": 4,
+  "week2_attempted_sessions": 44,
+  "week2_valid_sessions": 40,
+  "week2_invalid_sessions": 4,
+  "modes": [
+    "attention",
+    "monitor",
+    "relax",
+    "simulation"
+  ],
+  "all_valid_have_eight_phase_acks": true,
+  "all_valid_have_one_stop_ack": true
+}

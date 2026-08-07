@@ -1,0 +1,31 @@
+{
+  "scheme": "attention",
+  "subject": {
+    "id": "SMOKE_ATTENTION",
+    "name": "",
+    "sex": "",
+    "age": 0,
+    "handedness": "",
+    "note": "dual-end smoke test"
+  },
+  "start_ts": "2026-08-05 16:36:52",
+  "start_abs_ts": 1.7859190129536202E+9,
+  "end_ts": "2026-08-05 16:37:57",
+  "end_abs_ts": 1.785919077125936E+9,
+  "duration_sec": 64.172315835952759,
+  "ts_columns": [
+    "t_session_sec",
+    "abs_ts",
+    "phase_rec",
+    "trial_idx_rec",
+    "attention_rec",
+    "attention_pct_rec",
+    "attention_window_open_rec",
+    "theta_power_rec",
+    "smr_power_rec",
+    "beta1_power_rec"
+  ],
+  "ts_row_count": 764,
+  "ev_row_count": 134,
+  "recording_convention": "_rec=time series, _log=event; see docs/RECORDING_CONVENTION.md"
+}

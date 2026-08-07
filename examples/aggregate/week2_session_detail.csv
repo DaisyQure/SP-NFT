@@ -1,0 +1,5 @@
+﻿session,session_dir,mode,missing_files,week2_cohort,complete,duration_sec,subject_id,event_rows,phase_ack_n,stop_ack_n,phase_ack_latency_n,stop_ack_latency_n,phase_N,phase_mean,phase_std,phase_min,phase_median,phase_max,stop_N,stop_mean,stop_std,stop_min,stop_median,stop_max,valid_session
+attention,examples/sessions/attention,attention,,1,1,64.17231583595276,SMOKE_ATTENTION,134,8,1,8,1,8.0,54.1741,59.5743,27.7021,32.782,201.225,1.0,169.1418,0.0,169.1418,169.1418,169.1418,1
+monitor,examples/sessions/monitor,monitor,,1,1,64.34309911727905,SMOKE_MONITOR,69,8,1,8,1,8.0,64.6459,1.9099,62.99,64.334,68.9952,1.0,172.6041,0.0,172.6041,172.6041,172.6041,1
+relax,examples/sessions/relax,relax,,1,1,64.71909785270691,SMOKE_RELAX,73,8,1,8,1,8.0,33.0694,1.5623,31.8351,32.5565,36.6628,1.0,174.0129,0.0,174.0129,174.0129,174.0129,1
+simulation,examples/sessions/simulation,simulation,,1,1,64.16815090179443,SMOKE_SIMULATION,82,8,1,8,1,8.0,45.7733,28.9755,29.819,34.9715,115.854,1.0,167.6459,0.0,167.6459,167.6459,167.6459,1

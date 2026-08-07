@@ -1,0 +1,25 @@
+# MATLAB generated outputs
+matlab/logs/
+*.asv
+
+# Unity generated directories
+unity_source_candidate/Library/
+unity_source_candidate/Temp/
+unity_source_candidate/Logs/
+unity_source_candidate/Builds/
+unity_source_candidate/UserSettings/
+unity_source_candidate/obj/
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+.DS_Store
+Thumbs.db
+
+# Python caches
+__pycache__/
+*.py[cod]

@@ -1,0 +1,8 @@
+﻿metric,N,mean,std,min,median,max
+phase_ack_latency_ms,8,33.0694,1.5623,31.8351,32.5565,36.6628
+session_stop_ack_latency_ms,1,174.0129,0.0000,174.0129,174.0129,174.0129
+phase_ack_transport_ms,8,16.5396,1.2750,13.7973,16.9131,17.7493
+session_stop_ack_transport_ms,1,157.8698,0.0000,157.8698,157.8698,157.8698
+tcp_connected_transport_ms,1,3154.2377,0.0000,3154.2377,3154.2377,3154.2377
+unity_sync_transport_ms,9,32.2429,47.1252,13.7973,17.1626,157.8698
+unity_marker_transport_ms,27,715.4323,1286.1122,9.7692,49.0167,3154.2377

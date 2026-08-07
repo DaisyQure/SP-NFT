@@ -1,0 +1,135 @@
+﻿t_session_sec,abs_ts,source,kind,key,value,info
+0.0308,1785919012.984434,system,subject,enrolled,0,id=SMOKE_ATTENTION name= sex= age=0 handedness= note=dual-end smoke test
+3.5261,1785919016.479732,matlab,phase,phase_a_start,1,dur=5s | send_seq=0
+3.6229,1785919016.576476,matlab,trial,trial_start,1,
+3.7145,1785919016.668165,unity,marker,tcp_connected,0,scene=_Bootstrap | unity_ts=1785919013.348097 | recv_ts=1785919016.668165 | seq=0 | transport_ms=3320.068 | info=127.0.0.1:5555
+3.7145,1785919016.668165,system,latency,tcp_connected_transport_ms,3320.0684,scene=_Bootstrap seq=0 endpoint=127.0.0.1:5555
+3.7187,1785919016.672319,unity,marker,menu_select_attention,0,scene=_Bootstrap | unity_ts=1785919013.440278 | recv_ts=1785919016.672319 | seq=1 | transport_ms=3232.041 | info=Game_Attention
+3.7201,1785919016.673679,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919013.441278 | recv_ts=1785919016.673679 | seq=2 | transport_ms=3232.401 | info=MainMenu
+3.7214,1785919016.675006,unity,marker,scene_unloaded,0,scene=_Bootstrap | unity_ts=1785919013.443332 | recv_ts=1785919016.675006 | seq=3 | transport_ms=3231.674 | info=MainMenu
+3.7234,1785919016.676978,unity,marker,scene_loaded,0,scene=_Bootstrap | unity_ts=1785919013.460333 | recv_ts=1785919016.676978 | seq=4 | transport_ms=3216.645 | info=Game_Attention
+3.7270,1785919016.680603,unity,marker,session_start,0,scene=_Bootstrap | unity_ts=1785919013.460333 | recv_ts=1785919016.680603 | seq=5 | transport_ms=3220.270 | info=attention
+3.7273,1785919016.680957,unity,sync,phase_ack,0,scene=_Bootstrap | unity_ts=1785919016.572796 | recv_ts=1785919016.680957 | seq=6 | transport_ms=108.161 | info=A
+3.7273,1785919016.680957,system,latency,phase_ack_transport_ms,108.1610,phase=A trial=1 ack_seq=6 unity_phase=A
+3.7273,1785919016.680957,system,latency,phase_ack_latency_ms,201.2250,phase=A trial=1 send_seq=0 ack_seq=6 unity_phase=A
+8.5357,1785919021.489352,matlab,phase,phase_a_end,1,
+8.5370,1785919021.490660,matlab,phase,phase_b_start,1,dur=10s | send_seq=61
+8.5797,1785919021.533336,unity,sync,phase_ack,1,scene=Game_Attention | unity_ts=1785919021.503850 | recv_ts=1785919021.533336 | seq=7 | transport_ms=29.486 | info=B
+8.5797,1785919021.533336,system,latency,phase_ack_transport_ms,29.4857,phase=B trial=1 ack_seq=7 unity_phase=B
+8.5797,1785919021.533336,system,latency,phase_ack_latency_ms,42.6760,phase=B trial=1 send_seq=61 ack_seq=7 unity_phase=B
+11.0946,1785919024.048225,unity,marker,coin_spawn,-1.9726,scene=Game_Attention | unity_ts=1785919024.024193 | recv_ts=1785919024.048225 | seq=8 | transport_ms=24.032 | info=attention
+15.1846,1785919028.138178,unity,marker,coin_spawn,-1.7419,scene=Game_Attention | unity_ts=1785919028.127811 | recv_ts=1785919028.138178 | seq=9 | transport_ms=10.366 | info=attention
+16.3749,1785919029.328557,unity,marker,coin_spawn,-2.0602,scene=Game_Attention | unity_ts=1785919029.272791 | recv_ts=1785919029.328557 | seq=10 | transport_ms=55.766 | info=attention
+17.0065,1785919029.960143,unity,marker,coin_spawn,-2.2197,scene=Game_Attention | unity_ts=1785919029.948434 | recv_ts=1785919029.960143 | seq=11 | transport_ms=11.709 | info=attention
+17.6142,1785919030.567829,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919030.548125 | recv_ts=1785919030.567829 | seq=12 | transport_ms=19.704 | info=attention
+17.6146,1785919030.568218,unity,marker,coin_spawn,-2.2545,scene=Game_Attention | unity_ts=1785919030.558125 | recv_ts=1785919030.568218 | seq=13 | transport_ms=10.093 | info=attention
+18.2223,1785919031.175940,unity,marker,coin_spawn,-1.9937,scene=Game_Attention | unity_ts=1785919031.165212 | recv_ts=1785919031.175940 | seq=14 | transport_ms=10.728 | info=attention
+18.2227,1785919031.176279,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919031.167212 | recv_ts=1785919031.176279 | seq=15 | transport_ms=9.067 | info=attention
+18.5978,1785919031.551404,matlab,phase,phase_b_end,1,
+18.5983,1785919031.551897,matlab,trial,trial_end,1,
+18.5992,1785919031.552793,matlab,phase,phase_a_start,2,dur=5s | send_seq=190
+18.6140,1785919031.567637,matlab,trial,trial_start,2,
+18.6296,1785919031.583180,unity,sync,phase_ack,0,scene=Game_Attention | unity_ts=1785919031.567671 | recv_ts=1785919031.583180 | seq=16 | transport_ms=15.509 | info=A
+18.6296,1785919031.583180,system,latency,phase_ack_transport_ms,15.5089,phase=A trial=2 ack_seq=16 unity_phase=A
+18.6296,1785919031.583180,system,latency,phase_ack_latency_ms,30.3869,phase=A trial=2 send_seq=190 ack_seq=16 unity_phase=A
+23.6496,1785919036.603213,matlab,phase,phase_a_end,2,
+23.6503,1785919036.603894,matlab,phase,phase_b_start,2,dur=10s | send_seq=255
+23.6842,1785919036.637796,unity,sync,phase_ack,1,scene=Game_Attention | unity_ts=1785919036.619209 | recv_ts=1785919036.637796 | seq=17 | transport_ms=18.587 | info=B
+23.6842,1785919036.637796,system,latency,phase_ack_transport_ms,18.5871,phase=B trial=2 ack_seq=17 unity_phase=B
+23.6842,1785919036.637796,system,latency,phase_ack_latency_ms,33.9019,phase=B trial=2 send_seq=255 ack_seq=17 unity_phase=B
+23.9019,1785919036.855493,unity,marker,coin_spawn,-1.7220,scene=Game_Attention | unity_ts=1785919036.836798 | recv_ts=1785919036.855493 | seq=18 | transport_ms=18.695 | info=attention
+23.9022,1785919036.855836,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919036.839797 | recv_ts=1785919036.855836 | seq=19 | transport_ms=16.038 | info=attention
+24.6087,1785919037.562339,unity,marker,coin_spawn,-2.0417,scene=Game_Attention | unity_ts=1785919037.495532 | recv_ts=1785919037.562339 | seq=20 | transport_ms=66.807 | info=attention
+24.6091,1785919037.562735,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919037.499535 | recv_ts=1785919037.562735 | seq=21 | transport_ms=63.200 | info=attention
+25.3954,1785919038.349030,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919038.339306 | recv_ts=1785919038.349030 | seq=22 | transport_ms=9.724 | info=attention
+25.3959,1785919038.349481,unity,marker,coin_spawn,-1.7959,scene=Game_Attention | unity_ts=1785919038.345306 | recv_ts=1785919038.349481 | seq=23 | transport_ms=4.175 | info=attention
+26.3378,1785919039.291449,unity,marker,coin_spawn,-2.1874,scene=Game_Attention | unity_ts=1785919039.270685 | recv_ts=1785919039.291449 | seq=24 | transport_ms=20.764 | info=attention
+27.2616,1785919040.215223,unity,marker,coin_spawn,-2.2414,scene=Game_Attention | unity_ts=1785919040.205228 | recv_ts=1785919040.215223 | seq=25 | transport_ms=9.995 | info=attention
+28.2805,1785919041.234112,unity,marker,coin_spawn,-1.7287,scene=Game_Attention | unity_ts=1785919041.162373 | recv_ts=1785919041.234112 | seq=26 | transport_ms=71.739 | info=attention
+30.2415,1785919043.195130,unity,marker,coin_spawn,-1.9464,scene=Game_Attention | unity_ts=1785919043.146623 | recv_ts=1785919043.195130 | seq=27 | transport_ms=48.507 | info=attention
+33.1440,1785919046.097613,unity,marker,coin_spawn,-1.8556,scene=Game_Attention | unity_ts=1785919046.040438 | recv_ts=1785919046.097613 | seq=28 | transport_ms=57.175 | info=attention
+33.6778,1785919046.631374,matlab,phase,phase_b_end,2,
+33.6784,1785919046.632020,matlab,trial,trial_end,2,
+33.6818,1785919046.635378,matlab,phase,phase_a_start,3,dur=5s | send_seq=384
+33.6938,1785919046.647387,matlab,trial,trial_start,3,
+33.7095,1785919046.663080,unity,sync,phase_ack,0,scene=Game_Attention | unity_ts=1785919046.647604 | recv_ts=1785919046.663080 | seq=29 | transport_ms=15.476 | info=A
+33.7095,1785919046.663080,system,latency,phase_ack_transport_ms,15.4760,phase=A trial=3 ack_seq=29 unity_phase=A
+33.7095,1785919046.663080,system,latency,phase_ack_latency_ms,27.7021,phase=A trial=3 send_seq=384 ack_seq=29 unity_phase=A
+38.7223,1785919051.675878,matlab,phase,phase_a_end,3,
+38.7231,1785919051.676739,matlab,phase,phase_b_start,3,dur=10s | send_seq=449
+38.7551,1785919051.708676,unity,sync,phase_ack,1,scene=Game_Attention | unity_ts=1785919051.691552 | recv_ts=1785919051.708676 | seq=30 | transport_ms=17.124 | info=B
+38.7551,1785919051.708676,system,latency,phase_ack_transport_ms,17.1237,phase=B trial=3 ack_seq=30 unity_phase=B
+38.7551,1785919051.708676,system,latency,phase_ack_latency_ms,31.9371,phase=B trial=3 send_seq=449 ack_seq=30 unity_phase=B
+39.0691,1785919052.022705,unity,marker,coin_spawn,-1.9435,scene=Game_Attention | unity_ts=1785919051.962528 | recv_ts=1785919052.022705 | seq=31 | transport_ms=60.177 | info=attention
+39.0695,1785919052.023083,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919051.963530 | recv_ts=1785919052.023083 | seq=32 | transport_ms=59.553 | info=attention
+39.5250,1785919052.478601,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919052.463043 | recv_ts=1785919052.478601 | seq=33 | transport_ms=15.558 | info=attention
+39.5253,1785919052.478931,unity,marker,coin_spawn,-2.1055,scene=Game_Attention | unity_ts=1785919052.466043 | recv_ts=1785919052.478931 | seq=34 | transport_ms=12.888 | info=attention
+40.0777,1785919053.031317,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919052.963155 | recv_ts=1785919053.031317 | seq=35 | transport_ms=68.162 | info=attention
+40.0781,1785919053.031680,unity,marker,coin_spawn,-2.0424,scene=Game_Attention | unity_ts=1785919052.965154 | recv_ts=1785919053.031680 | seq=36 | transport_ms=66.525 | info=attention
+40.5476,1785919053.501198,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919053.483379 | recv_ts=1785919053.501198 | seq=37 | transport_ms=17.819 | info=attention
+40.5479,1785919053.501538,unity,marker,coin_spawn,-2.0148,scene=Game_Attention | unity_ts=1785919053.486379 | recv_ts=1785919053.501538 | seq=38 | transport_ms=15.159 | info=attention
+41.1744,1785919054.128051,unity,marker,coin_spawn,-2.1018,scene=Game_Attention | unity_ts=1785919054.078262 | recv_ts=1785919054.128051 | seq=39 | transport_ms=49.789 | info=attention
+41.1748,1785919054.128406,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919054.083262 | recv_ts=1785919054.128406 | seq=40 | transport_ms=45.144 | info=attention
+41.7881,1785919054.741699,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919054.723117 | recv_ts=1785919054.741699 | seq=41 | transport_ms=18.582 | info=attention
+41.7884,1785919054.742039,unity,marker,coin_spawn,-1.8090,scene=Game_Attention | unity_ts=1785919054.732117 | recv_ts=1785919054.742039 | seq=42 | transport_ms=9.922 | info=attention
+42.4956,1785919055.449210,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919055.403511 | recv_ts=1785919055.449210 | seq=43 | transport_ms=45.699 | info=attention
+42.4959,1785919055.449554,unity,marker,coin_spawn,-2.0540,scene=Game_Attention | unity_ts=1785919055.404511 | recv_ts=1785919055.449554 | seq=44 | transport_ms=45.043 | info=attention
+43.2033,1785919056.156941,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919056.083248 | recv_ts=1785919056.156941 | seq=45 | transport_ms=73.693 | info=attention
+43.2037,1785919056.157284,unity,marker,coin_spawn,-2.1863,scene=Game_Attention | unity_ts=1785919056.093247 | recv_ts=1785919056.157284 | seq=46 | transport_ms=64.037 | info=attention
+43.8133,1785919056.766910,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919056.743090 | recv_ts=1785919056.766910 | seq=47 | transport_ms=23.820 | info=attention
+43.8136,1785919056.767243,unity,marker,coin_spawn,-1.9976,scene=Game_Attention | unity_ts=1785919056.752090 | recv_ts=1785919056.767243 | seq=48 | transport_ms=15.153 | info=attention
+44.5200,1785919057.473669,unity,marker,coin_spawn,-2.1687,scene=Game_Attention | unity_ts=1785919057.418983 | recv_ts=1785919057.473669 | seq=49 | transport_ms=54.687 | info=attention
+44.5204,1785919057.474019,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919057.423982 | recv_ts=1785919057.474019 | seq=50 | transport_ms=50.037 | info=attention
+45.3081,1785919058.261675,unity,marker,coin_spawn,-1.8369,scene=Game_Attention | unity_ts=1785919058.215975 | recv_ts=1785919058.261675 | seq=51 | transport_ms=45.700 | info=attention
+45.3084,1785919058.262010,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919058.223975 | recv_ts=1785919058.262010 | seq=52 | transport_ms=38.035 | info=attention
+47.4287,1785919060.382337,unity,marker,coin_spawn,-2.1494,scene=Game_Attention | unity_ts=1785919060.350682 | recv_ts=1785919060.382337 | seq=53 | transport_ms=31.655 | info=attention
+48.7495,1785919061.703136,matlab,phase,phase_b_end,3,
+48.7499,1785919061.703545,matlab,trial,trial_end,3,
+48.7505,1785919061.704079,matlab,phase,phase_a_start,4,dur=5s | send_seq=578
+48.7660,1785919061.719604,matlab,trial,trial_start,4,
+48.7836,1785919061.737198,unity,sync,phase_ack,0,scene=Game_Attention | unity_ts=1785919061.719860 | recv_ts=1785919061.737198 | seq=54 | transport_ms=17.338 | info=A
+48.7836,1785919061.737198,system,latency,phase_ack_transport_ms,17.3383,phase=A trial=4 ack_seq=54 unity_phase=A
+48.7836,1785919061.737198,system,latency,phase_ack_latency_ms,33.1190,phase=A trial=4 send_seq=578 ack_seq=54 unity_phase=A
+53.7996,1785919066.753263,matlab,phase,phase_a_end,4,
+53.8001,1785919066.753762,matlab,phase,phase_b_start,4,dur=10s | send_seq=643
+53.8326,1785919066.786207,unity,sync,phase_ack,1,scene=Game_Attention | unity_ts=1785919066.768939 | recv_ts=1785919066.786207 | seq=55 | transport_ms=17.268 | info=B
+53.8326,1785919066.786207,system,latency,phase_ack_transport_ms,17.2679,phase=B trial=4 ack_seq=55 unity_phase=B
+53.8326,1785919066.786207,system,latency,phase_ack_latency_ms,32.4450,phase=B trial=4 send_seq=643 ack_seq=55 unity_phase=B
+54.3681,1785919067.321732,unity,marker,coin_spawn,-1.7739,scene=Game_Attention | unity_ts=1785919067.308038 | recv_ts=1785919067.321732 | seq=56 | transport_ms=13.695 | info=attention
+54.5242,1785919067.477858,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919067.412646 | recv_ts=1785919067.477858 | seq=57 | transport_ms=65.212 | info=attention
+54.9907,1785919067.944335,unity,marker,coin_spawn,-2.1052,scene=Game_Attention | unity_ts=1785919067.906591 | recv_ts=1785919067.944335 | seq=58 | transport_ms=37.744 | info=attention
+54.9911,1785919067.944684,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919067.912591 | recv_ts=1785919067.944684 | seq=59 | transport_ms=32.093 | info=attention
+55.5393,1785919068.492953,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919068.412669 | recv_ts=1785919068.492953 | seq=60 | transport_ms=80.283 | info=attention
+55.5397,1785919068.493313,unity,marker,coin_spawn,-2.1543,scene=Game_Attention | unity_ts=1785919068.413669 | recv_ts=1785919068.493313 | seq=61 | transport_ms=79.644 | info=attention
+56.0106,1785919068.964205,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919068.892507 | recv_ts=1785919068.964205 | seq=62 | transport_ms=71.698 | info=attention
+56.0109,1785919068.964559,unity,marker,coin_spawn,-2.2707,scene=Game_Attention | unity_ts=1785919068.899507 | recv_ts=1785919068.964559 | seq=63 | transport_ms=65.052 | info=attention
+56.4811,1785919069.434699,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919069.392456 | recv_ts=1785919069.434699 | seq=64 | transport_ms=42.243 | info=attention
+56.4814,1785919069.435039,unity,marker,coin_spawn,-1.8214,scene=Game_Attention | unity_ts=1785919069.393457 | recv_ts=1785919069.435039 | seq=65 | transport_ms=41.582 | info=attention
+56.9541,1785919069.907681,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919069.892135 | recv_ts=1785919069.907681 | seq=66 | transport_ms=15.546 | info=attention
+56.9544,1785919069.908020,unity,marker,coin_spawn,-1.8152,scene=Game_Attention | unity_ts=1785919069.901135 | recv_ts=1785919069.908020 | seq=67 | transport_ms=6.885 | info=attention
+57.5098,1785919070.463425,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919070.452202 | recv_ts=1785919070.463425 | seq=68 | transport_ms=11.223 | info=attention
+57.5102,1785919070.463860,unity,marker,coin_spawn,-2.0662,scene=Game_Attention | unity_ts=1785919070.454202 | recv_ts=1785919070.463860 | seq=69 | transport_ms=9.658 | info=attention
+58.1346,1785919071.088221,unity,marker,coin_spawn,-2.1268,scene=Game_Attention | unity_ts=1785919071.051704 | recv_ts=1785919071.088221 | seq=70 | transport_ms=36.517 | info=attention
+58.1349,1785919071.088563,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919071.052704 | recv_ts=1785919071.088563 | seq=71 | transport_ms=35.859 | info=attention
+58.7617,1785919071.715281,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919071.672243 | recv_ts=1785919071.715281 | seq=72 | transport_ms=43.038 | info=attention
+58.7620,1785919071.715616,unity,marker,coin_spawn,-2.2136,scene=Game_Attention | unity_ts=1785919071.676243 | recv_ts=1785919071.715616 | seq=73 | transport_ms=39.373 | info=attention
+59.3923,1785919072.345880,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919072.272158 | recv_ts=1785919072.345880 | seq=74 | transport_ms=73.722 | info=attention
+59.3926,1785919072.346223,unity,marker,coin_spawn,-1.9548,scene=Game_Attention | unity_ts=1785919072.279159 | recv_ts=1785919072.346223 | seq=75 | transport_ms=67.064 | info=attention
+59.9438,1785919072.897385,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919072.832518 | recv_ts=1785919072.897385 | seq=76 | transport_ms=64.867 | info=attention
+59.9441,1785919072.897760,unity,marker,coin_spawn,-2.1935,scene=Game_Attention | unity_ts=1785919072.833518 | recv_ts=1785919072.897760 | seq=77 | transport_ms=64.242 | info=attention
+60.4147,1785919073.368368,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919073.352782 | recv_ts=1785919073.368368 | seq=78 | transport_ms=15.586 | info=attention
+60.4151,1785919073.368717,unity,marker,coin_spawn,-1.9656,scene=Game_Attention | unity_ts=1785919073.358783 | recv_ts=1785919073.368717 | seq=79 | transport_ms=9.934 | info=attention
+60.9653,1785919073.918926,unity,marker,coin_spawn,-1.9056,scene=Game_Attention | unity_ts=1785919073.868201 | recv_ts=1785919073.918926 | seq=80 | transport_ms=50.725 | info=attention
+60.9656,1785919073.919248,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919073.872200 | recv_ts=1785919073.919248 | seq=81 | transport_ms=47.048 | info=attention
+61.5020,1785919074.455599,unity,marker,coin_spawn,-1.7972,scene=Game_Attention | unity_ts=1785919074.448257 | recv_ts=1785919074.455599 | seq=82 | transport_ms=7.342 | info=attention
+61.5023,1785919074.455937,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919074.452257 | recv_ts=1785919074.455937 | seq=83 | transport_ms=3.680 | info=attention
+62.2890,1785919075.242664,unity,marker,coin_collected,10,scene=Game_Attention | unity_ts=1785919075.192499 | recv_ts=1785919075.242664 | seq=84 | transport_ms=50.165 | info=attention
+62.2896,1785919075.243192,unity,marker,coin_spawn,-2.1420,scene=Game_Attention | unity_ts=1785919075.195499 | recv_ts=1785919075.243192 | seq=85 | transport_ms=47.693 | info=attention
+63.5467,1785919076.500340,unity,marker,coin_spawn,-2.2976,scene=Game_Attention | unity_ts=1785919076.498611 | recv_ts=1785919076.500340 | seq=86 | transport_ms=1.729 | info=attention
+63.8450,1785919076.798613,matlab,phase,phase_b_end,4,
+63.8455,1785919076.799161,matlab,trial,trial_end,4,
+64.0839,1785919077.037557,unity,sync,session_stop_ack,0,unity_ts=1785919076.877112 | recv_ts=1785919077.037557 | seq=87 | info=finalize
+64.0839,1785919077.037557,system,latency,session_stop_ack_transport_ms,160.4445,ack_seq=87 reason=finalize
+64.0839,1785919077.037557,system,latency,session_stop_ack_latency_ms,169.1418,send_seq=773 ack_seq=87 reason=finalize
+64.0942,1785919077.047811,matlab,phase,phase_b_end,4,session_finalize
+64.0945,1785919077.048116,matlab,trial,trial_end,4,session_finalize
